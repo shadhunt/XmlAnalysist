@@ -1,0 +1,691 @@
+<Objects>
+
+<!--
+Symbols used by the game (reels), Symbol0 maps to Symbol0 in the reels' 
+symbol set. The numeric ID maps to the paytable ID for the symbol. This 
+may often be the same but the is not a requirement. 'name' is the human 
+readable name of the symbol used for recall history display. Other 
+attributes may be used for validation (TBD).
+-->
+
+<!-- 3 Reel Games -->
+
+<Object name="AmericanPrizeSymbolMap">
+    <Symbol0 name="7usa" is_wild="false">0</Symbol0>
+    <SymSoundID_0>110</SymSoundID_0>
+   
+    <Symbol1 name="stargold">1</Symbol1>
+    <SymSoundID_1>110</SymSoundID_1>
+   
+    <Symbol2 name="starsilver">2</Symbol2>
+    <SymSoundID_2>110</SymSoundID_2>
+   
+    <Symbol3 name="starbronze">3</Symbol3>
+    <SymSoundID_3>110</SymSoundID_3>
+   
+    <Symbol4 name="barbarbar">4</Symbol4>
+    <SymSoundID_4>110</SymSoundID_4>
+   
+    <Symbol5 name="barbar">5</Symbol5>
+    <SymSoundID_5>110</SymSoundID_5>
+   
+    <Symbol6 name="bar">6</Symbol6>
+    <SymSoundID_6>110</SymSoundID_6>
+   
+    <Symbol7 name="7blue">7</Symbol7>
+    <SymSoundID_7>110</SymSoundID_7>
+   
+    <Symbol8 name="7white">8</Symbol8>
+    <SymSoundID_8>110</SymSoundID_8>
+   
+    <Symbol9 name="7red">9</Symbol9>
+    <SymSoundID_9>110</SymSoundID_9>
+   
+</Object>
+ 
+<Object name="AmericanPrizeSoundInfo">
+    <LoopReelSound>false</LoopReelSound>
+    <RandomReelSound>false</RandomReelSound>
+    <ReelSpinSoundIDs>40</ReelSpinSoundIDs>
+    <RandomStopSound>false</RandomStopSound>
+    <StopReelSoundIDs></StopReelSoundIDs>
+    <LineUpSoundIDs></LineUpSoundIDs>
+    <LineDownSoundIDs></LineDownSoundIDs>
+    <BetUpSoundIDs>12,13,14,15,16,17,18,19</BetUpSoundIDs>
+    <BetDownSoundIDs>11,10,9,8,7,6,5,4</BetDownSoundIDs>
+</Object>
+ 
+<Game name="American Prize" include_props="AmericanPrizeSymbolMap,AmericanPrizeSoundInfo">
+    <ID>0</ID>
+    <Jar>../jars/american_prize.jar</Jar>
+    <IsSkill>true</IsSkill>
+    <IsNudge>true</IsNudge>
+    <PreLoadResources>false</PreLoadResources>
+    <Class>com.pom.games.fivereel.ThreeReelSlots</Class>
+    <Resources>../FiveReel/american_prize_resources</Resources>
+    <JarResources>american_prize_resources</JarResources>
+    <ConfigFile>game_config/nudge_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3_REEL FreeSpinBonus GameConfig</DataStoreTables>
+    <DisplayName>American Prize</DisplayName>
+    <DefaultGame>false</DefaultGame>
+    <IconImage>graphics/menu_icon</IconImage>
+    <IconAnim>scripts/menu_icon.script</IconAnim>
+    <IconSound>sounds/main/intro.wav</IconSound>
+    <GameSetupFile>../configs2/ohio_skill/gui/American_prize_setup.xml</GameSetupFile>
+    <FieldOfView>32</FieldOfView>
+    <NearClip>1</NearClip>
+    <FarClip>3000</FarClip>
+    <Version>1.0 Alpha</Version>
+    <GameWidth>1152</GameWidth>
+    <GameHeight>768</GameHeight>
+    <DefaultState>waiting</DefaultState>
+    <Bonus0>com.pom.games.bonus.freespin.FreeSpinNudgeBonus</Bonus0>
+    <Paytable0>paytables/american_prize_finite_nudge_prog_val.xml</Paytable0>       
+</Game>
+
+
+
+<Object name="ClassicFruitSymbolMap">
+    <Symbol0 name="freespin" is_wild="false">0</Symbol0>
+    <SymSoundID_0>110</SymSoundID_0>
+   
+    <Symbol1 name="gold">1</Symbol1>
+    <SymSoundID_1>110</SymSoundID_1>
+   
+    <Symbol2 name="star">2</Symbol2>
+    <SymSoundID_2>110</SymSoundID_2>
+   
+    <Symbol3 name="seven">3</Symbol3>
+    <SymSoundID_3>110</SymSoundID_3>
+   
+    <Symbol4 name="bell">4</Symbol4>
+    <SymSoundID_4>110</SymSoundID_4>
+   
+    <Symbol5 name="watermelon">5</Symbol5>
+    <SymSoundID_5>110</SymSoundID_5>
+   
+    <Symbol6 name="apple">6</Symbol6>
+    <SymSoundID_6>110</SymSoundID_6>
+   
+    <Symbol7 name="grapes">7</Symbol7>
+    <SymSoundID_7>110</SymSoundID_7>
+   
+    <Symbol8 name="orange">8</Symbol8>
+    <SymSoundID_8>110</SymSoundID_8>
+   
+    <Symbol9 name="lemon">9</Symbol9>
+    <SymSoundID_9>110</SymSoundID_9>
+    
+    <Symbol10 name="cherry">10</Symbol10>
+    <SymSoundID_10>110</SymSoundID_10>
+  
+</Object>
+ 
+<Object name="ClassicFruitSoundInfo">
+    <LoopReelSound>false</LoopReelSound>
+    <RandomReelSound>false</RandomReelSound>
+    <ReelSpinSoundIDs>40</ReelSpinSoundIDs>
+    <RandomStopSound>false</RandomStopSound>
+    <StopReelSoundIDs></StopReelSoundIDs>
+    <LineUpSoundIDs></LineUpSoundIDs>
+    <LineDownSoundIDs></LineDownSoundIDs>
+    <BetUpSoundIDs>12,13,14,15,16,17,18,19</BetUpSoundIDs>
+    <BetDownSoundIDs>11,10,9,8,7,6,5,4</BetDownSoundIDs>
+</Object>
+ 
+<Game name="Classic Fruit" include_props="ClassicFruitSymbolMap,ClassicFruitSoundInfo">
+    <ID>0</ID>
+    <Jar>../jars/classic_fruit.jar</Jar>
+    <IsSkill>true</IsSkill>
+    <IsNudge>true</IsNudge>
+    <PreLoadResources>false</PreLoadResources>
+    <Class>com.pom.games.fivereel.ThreeReelSlots</Class>
+    <Resources>../FiveReel/classic_fruit_resources</Resources>
+    <JarResources>classic_fruit_resources</JarResources>
+    <ConfigFile>game_config/nudge_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3_REEL BonusGameTest FreeSpinBonus GameConfig</DataStoreTables>
+    <DisplayName>Classic Fruit</DisplayName>
+    <DefaultGame>false</DefaultGame>
+    <IconImage>graphics/menu_icon</IconImage>
+    <IconAnim>scripts/menu_icon.script</IconAnim>
+    <IconSound>sounds/main/intro.wav</IconSound>
+    <GameSetupFile>../configs2/ohio_skill/gui/classic_fruit_setup.xml</GameSetupFile>
+    <FieldOfView>32</FieldOfView>
+    <NearClip>1</NearClip>
+    <FarClip>3000</FarClip>
+    <Version>1.0 Alpha</Version>
+    <GameWidth>1152</GameWidth>
+    <GameHeight>768</GameHeight>
+    <DefaultState>waiting</DefaultState>
+    <Bonus0>com.pom.games.bonus.freespin.FreeSpinNudgeBonus</Bonus0>
+    <Paytable0>paytables/classic_fruit_finite_nudge_prog_val.xml</Paytable0>       
+</Game>
+
+
+
+<Object name="ClowninSymbolMap">
+	<Symbol0 name="wild" is_wild="true">0</Symbol0>
+	<SymSoundID_0>55</SymSoundID_0>
+	
+	<Symbol1 name="strongman">1</Symbol1>
+	<SymSoundID_1>52</SymSoundID_1>
+	
+	<Symbol2 name="juggle">2</Symbol2>
+	<SymSoundID_2>50</SymSoundID_2>
+	
+	<Symbol3 name="unicycle">3</Symbol3>
+	<SymSoundID_3>53</SymSoundID_3>
+	
+	<Symbol4 name="flower">4</Symbol4>
+	<SymSoundID_4>48</SymSoundID_4>
+	
+	<Symbol5 name="car">5</Symbol5>
+	<SymSoundID_5>57</SymSoundID_5>
+	
+	<Symbol6 name="dunk">6</Symbol6>
+	<SymSoundID_6>47</SymSoundID_6>
+	
+	<Symbol7 name="wheel">7</Symbol7>
+	<SymSoundID_7>54</SymSoundID_7>
+	
+	<Symbol8 name="ticket">8</Symbol8>
+	<SymSoundID_8>56</SymSoundID_8>
+	
+	<Symbol9 name="popcorn">9</Symbol9>
+	<SymSoundID_9>51</SymSoundID_9>
+	
+	<Symbol10 name="duck">10</Symbol10>
+	<SymSoundID_10>46</SymSoundID_10>
+	
+	<Symbol11 name="bottle">11</Symbol11>
+	<SymSoundID_11>45</SymSoundID_11>
+	
+	<Symbol12 name="balloon">12</Symbol12>
+	<SymSoundID_12>44</SymSoundID_12>
+	
+	<Symbol13 name="hammer">13</Symbol13>
+	<SymSoundID_13>49</SymSoundID_13>
+</Object>
+
+<Object name="ClownGameSoundInfo">
+	<LoopReelSound>false</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>40,41,42,43</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs></StopReelSoundIDs>
+	<LineUpSoundIDs>25,26,27,28,29</LineUpSoundIDs>
+	<LineDownSoundIDs>24,23,22,21,20</LineDownSoundIDs>
+	<BetUpSoundIDs>12,13,14,15,16,17,18,34</BetUpSoundIDs>
+	<BetDownSoundIDs>11,10,9,8,7,6,5,4</BetDownSoundIDs>
+</Object>
+
+<Game name="Clownin Around" include_props="ClowninSymbolMap,ClownGameSoundInfo"> 
+	<ID>0</ID>
+	<Jar>../jars/clownin.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<IsNudge>true</IsNudge>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.fivereel.ThreeReelSlots</Class>
+	<Resources>../FiveReel/clownin_resources</Resources>
+	<JarResources>clownin_resources</JarResources>
+	<ConfigFile>game_config/nudge_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3_REEL BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Clownin Around</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/main/intro.wav</IconSound>
+	<GameSetupFile>../configs2/ohio_skill/gui/clownin_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<GameWidth>1152</GameWidth>
+	<GameHeight>768</GameHeight>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.fivereel.bonus.clownin.darts.Darts</Bonus0>
+	<Paytable0>paytables/clown_finite_nudge_prog_val.xml</Paytable0>		
+</Game>
+
+<!-- 8 Line Games -->
+
+<Object name="BombsSymbolMap">
+    <Symbol0 name="Airplane">0</Symbol0>
+    <SymSoundID_0>204</SymSoundID_0>
+ 
+    <Symbol1 name="Purple Heart">1</Symbol1>
+    <SymSoundID_1>205</SymSoundID_1>
+ 
+    <Symbol2 name="Bomb">2</Symbol2>
+    <SymSoundID_2>200</SymSoundID_2>
+ 
+    <Symbol3 name="Flag">3</Symbol3>
+    <SymSoundID_3>201</SymSoundID_3>
+ 
+    <Symbol4 name="Girl">4</Symbol4>
+    <SymSoundID_4>207</SymSoundID_4>
+ 
+    <Symbol5 name="Helicopter">5</Symbol5>
+    <SymSoundID_5>202</SymSoundID_5>
+ 
+    <Symbol6 name="Battleship">6</Symbol6>
+    <SymSoundID_6>208</SymSoundID_6>
+ 
+    <Symbol7 name="Tank">7</Symbol7>
+    <SymSoundID_7>206</SymSoundID_7>
+ 
+    <Symbol8 name="Rifle">8</Symbol8>
+    <SymSoundID_8>199</SymSoundID_8>
+ 
+    <Symbol9 name="Helmet">9</Symbol9>
+    <SymSoundID_9>209</SymSoundID_9>
+ 
+    <Symbol10 name="Patch">10</Symbol10>
+    <SymSoundID_10>203</SymSoundID_10>
+</Object>
+ 
+<Object name="BombsGameSoundInfo">
+    <LoopReelSound>false</LoopReelSound>
+    <RandomReelSound>false</RandomReelSound>
+    <ReelSpinSoundIDs>192,193,194,195,192,193,194,195</ReelSpinSoundIDs>
+    <RandomStopSound>false</RandomStopSound>
+    <StopReelSoundIDs>38</StopReelSoundIDs>
+    <LineUpSoundIDs>191,191,191,191,191,191,191,191</LineUpSoundIDs>
+    <LineDownSoundIDs>196,196,196,196,196,196,196,196,</LineDownSoundIDs>
+    <BetUpSoundIDs>210,210,210,210,210,210,210,210,210,210</BetUpSoundIDs>
+    <BetDownSoundIDs>211,211,211,211,211,211,211,211,211,211</BetDownSoundIDs>
+</Object>
+
+<Game name="Bombs and Bombshells" include_props="BombsSymbolMap,BombsGameSoundInfo"> 
+	<ID>0</ID>
+	<Jar>../jars/bombshells.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../MagicSlots/bombshells_resources</Resources>
+	<JarResources>bombshells_resources</JarResources>
+	<ConfigFile>game_config/ate_up_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Bombs and Bombshells</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconSound>bombshell_sounds/revelly.wav</IconSound>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<GameSetupFile>../configs2/ohio_skill/gui/bombshells_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.shootum_bonus.ShootumBonus</Bonus0>
+	<Paytable0>paytables/bombshells_finite_skl_pa.xml</Paytable0>
+</Game>
+
+
+
+<Object name="SymbolMap">
+	<Symbol0 name="Cannon">0</Symbol0>
+	<SymSoundID_0>40</SymSoundID_0>
+
+	<Symbol1 name="Wheel">1</Symbol1>
+	<SymSoundID_1>41</SymSoundID_1>
+
+	<Symbol2 name="Swords">2</Symbol2>
+	<SymSoundID_2>42</SymSoundID_2>
+
+	<Symbol3 name="Flag">3</Symbol3>
+	<SymSoundID_3>43</SymSoundID_3>
+
+	<Symbol4 name="Barrel">4</Symbol4>
+	<SymSoundID_4>44</SymSoundID_4>
+
+	<Symbol5 name="Coin">5</Symbol5>
+	<SymSoundID_5>45</SymSoundID_5>
+
+	<Symbol6 name="Captain">6</Symbol6>
+	<SymSoundID_6>46</SymSoundID_6>
+
+	<Symbol7 name="Ship">7</Symbol7>
+	<SymSoundID_7>47</SymSoundID_7>
+
+	<Symbol8 name="Telescope">8</Symbol8>
+	<SymSoundID_8>48</SymSoundID_8>
+
+	<Symbol9 name="Treasure Chest">9</Symbol9>
+	<SymSoundID_9>49</SymSoundID_9>
+
+	<Symbol10 name="Treasure Map">10</Symbol10>
+	<SymSoundID_10>50</SymSoundID_10>
+</Object>
+
+<Object name="PiratesGameSoundInfo">
+	<LoopReelSound>false</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>30,31,32,33,34,35,36,37</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs>38</StopReelSoundIDs>
+	<LineUpSoundIDs>15,16,17,18,19,20,21,22</LineUpSoundIDs>
+	<LineDownSoundIDs>15,16,17,18,19,20,21,22</LineDownSoundIDs>
+	<BetUpSoundIDs>7,8,9,10,11,12,13,14,23,24</BetUpSoundIDs>
+	<BetDownSoundIDs>7,8,9,10,11,12,13,14,23,24</BetDownSoundIDs>
+</Object>
+
+<Game name="Pirates Prize Skill" include_props="SymbolMap,PiratesGameSoundInfo"> 
+	<ID>0</ID>
+	<Jar>../jars/pirates_prize.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../MagicSlots/piratesprize_resources</Resources>
+	<JarResources>piratesprize_resources</JarResources>
+	<ConfigFile>game_config/ate_up_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Pirates Prize</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconSound>sounds/reelspin/reelspin_01.wav</IconSound>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<GameSetupFile>../configs2/ohio_skill/gui/pirates_prize_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.pirate_bonus.PirateBonusGame</Bonus0>
+	<Paytable0>paytables/pirate_finite_skl_pa.xml</Paytable0>	
+</Game>
+
+
+
+<Object name="CoveSymbolMap">
+    <Symbol0 name="Scuba">0</Symbol0>
+    <SymSoundID_0>40</SymSoundID_0>
+ 
+    <Symbol1 name="Drink">1</Symbol1>
+    <SymSoundID_1>41</SymSoundID_1>
+ 
+    <Symbol2 name="Sailboat">2</Symbol2>
+    <SymSoundID_2>42</SymSoundID_2>
+ 
+    <Symbol3 name="Dolphin">3</Symbol3>
+    <SymSoundID_3>43</SymSoundID_3>
+ 
+    <Symbol4 name="Tiki">4</Symbol4>
+    <SymSoundID_4>44</SymSoundID_4>
+ 
+    <Symbol5 name="Parrot">5</Symbol5>
+    <SymSoundID_5>45</SymSoundID_5>
+ 
+    <Symbol6 name="Fish">6</Symbol6>
+    <SymSoundID_6>46</SymSoundID_6>
+ 
+    <Symbol7 name="Turtle">7</Symbol7>
+    <SymSoundID_7>47</SymSoundID_7>
+ 
+    <Symbol8 name="Crab">8</Symbol8>
+    <SymSoundID_8>48</SymSoundID_8>
+ 
+    <Symbol9 name="Eel">9</Symbol9>
+    <SymSoundID_9>49</SymSoundID_9>
+ 
+    <Symbol10 name="Shark">10</Symbol10>
+    <SymSoundID_10>50</SymSoundID_10>
+</Object>
+ 
+<Object name="CoveGameSoundInfo">
+    <LoopReelSound>false</LoopReelSound>
+    <RandomReelSound>false</RandomReelSound>
+    <ReelSpinSoundIDs>30,31,32,33,34,35,36,37</ReelSpinSoundIDs>
+    <RandomStopSound>false</RandomStopSound>
+    <StopReelSoundIDs>38</StopReelSoundIDs>
+    <LineUpSoundIDs>15,16,17,18,19,20,21,22</LineUpSoundIDs>
+    <LineDownSoundIDs>15,16,17,18,19,20,21,22</LineDownSoundIDs>
+    <BetUpSoundIDs>7,8,9,10,11,12,13,14,23,24</BetUpSoundIDs>
+    <BetDownSoundIDs>7,8,9,10,11,12,13,14,23,24</BetDownSoundIDs>
+</Object>
+ 
+<Game name="Cocktail Cove" include_props="CoveSymbolMap,CoveGameSoundInfo">
+    <ID>0</ID>
+   <Jar>../jars/cocktail_cove.jar</Jar>
+   <IsSkill>true</IsSkill>
+    <PreLoadResources>false</PreLoadResources>
+    <Class>com.pom.games.magicslots.MagicSlots</Class>
+    <Resources>../MagicSlots/cocktailcove_resources</Resources>
+    <JarResources>cocktailcove_resources</JarResources>
+    <ConfigFile>game_config/ate_up_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Cocktail Cove</DisplayName>
+    <DefaultGame>false</DefaultGame>
+    <IconImage>graphics/logo/GameSelect</IconImage>
+    <IconSound>sounds/game_music_intro.wav</IconSound>
+    <IconAnim>scripts/menu_icon.script</IconAnim>
+    <IconSound>sounds/game_music_intro.wav</IconSound>
+    <GameSetupFile>../configs2/ohio_skill/gui/cocktail_cove_setup.xml</GameSetupFile>
+    <FieldOfView>32</FieldOfView>
+    <NearClip>1</NearClip>
+    <FarClip>3000</FarClip>
+    <Version>1.0 Alpha</Version>
+    <DefaultState>waiting</DefaultState>
+    <Bonus0>com.pom.games.magicslots.fishphotobonus.FishBonus</Bonus0>
+    <Paytable0>paytables/cove_finite_skl_pa.xml</Paytable0>   
+</Game>
+
+<!-- 5 Reel Games -->
+
+<Object name="StarBurstSymbolMap">
+	<Symbol0 name="wild" is_wild="true">0</Symbol0>
+	<SymSoundID_0>110</SymSoundID_0>
+	
+	<Symbol1 name="ace">1</Symbol1>
+	<SymSoundID_1>111</SymSoundID_1>
+	
+	<Symbol2 name="king">2</Symbol2>
+	<SymSoundID_2>112</SymSoundID_2>
+	
+	<Symbol3 name="queen">3</Symbol3>
+	<SymSoundID_3>113</SymSoundID_3>
+	
+	<Symbol4 name="jack">4</Symbol4>
+	<SymSoundID_4>114</SymSoundID_4>
+	
+	<Symbol5 name="ten">5</Symbol5>
+	<SymSoundID_5>115</SymSoundID_5>
+	
+	<Symbol6 name="nine">6</Symbol6>
+	<SymSoundID_6>116</SymSoundID_6>
+	
+	<Symbol7 name="watermelon">7</Symbol7>
+	<SymSoundID_7>117</SymSoundID_7>
+	
+	<Symbol8 name="grapes">8</Symbol8>
+	<SymSoundID_8>117</SymSoundID_8>
+	
+	<Symbol9 name="orange">9</Symbol9>
+	<SymSoundID_9>117</SymSoundID_9>
+	
+	<Symbol10 name="lemon">10</Symbol10>
+	<SymSoundID_10>117</SymSoundID_10>
+	
+	<Symbol11 name="cherry">11</Symbol11>
+	<SymSoundID_11>117</SymSoundID_11>
+	
+	<Symbol12 name="bonus">12</Symbol12>
+	<SymSoundID_12>118</SymSoundID_12>
+</Object>
+
+<Object name="StarBurstSoundInfo">
+	<LoopReelSound>false</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>107,108,109</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs></StopReelSoundIDs>
+	<LineUpSoundIDs>30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49</LineUpSoundIDs>
+	<LineDownSoundIDs>69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50</LineDownSoundIDs>
+	<BetUpSoundIDs>10,11,12,13,14,15,16,17,18</BetUpSoundIDs>
+	<BetDownSoundIDs>27,26,25,24,23,22,21,20,19</BetDownSoundIDs>
+</Object>
+
+<Game name="StarBurst" include_props="StarBurstSymbolMap,StarBurstSoundInfo"> 
+	<ID>0</ID>
+	<Jar>../jars/starburst.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.fivereel.FiveReelSlots</Class>
+	<Resources>../FiveReel/star_burst_resources</Resources>
+	<JarResources>star_burst_resources</JarResources>
+	<ConfigFile>game_config/skill_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3X5 BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Star Burst</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/background/movieicon.wav</IconSound>
+	<GameSetupFile>../configs2/ohio_skill/gui/star_burst_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<GameWidth>1152</GameWidth>
+	<GameHeight>768</GameHeight>	
+	<DefaultState>waiting</DefaultState>	
+	<Bonus0>com.pom.games.fivereel.bonus.spacestation.SpaceStationPickum</Bonus0>
+	<Paytable0>paytables/star_burst_finite_skill_prog_val.xml</Paytable0>		
+</Game>
+
+<Object name="SpaceSymbolMap">
+	<Symbol0 name="biowild" is_wild="true">0</Symbol0>
+	<SymSoundID_0>112</SymSoundID_0>
+	
+	<Symbol1 name="seven">1</Symbol1>
+	<SymSoundID_1>120</SymSoundID_1>
+	
+	<Symbol2 name="station">2</Symbol2>
+	<SymSoundID_2>122</SymSoundID_2>
+	
+	<Symbol3 name="pulsar">3</Symbol3>
+	<SymSoundID_3>115</SymSoundID_3>
+	
+	<Symbol4 name="robotarms">4</Symbol4>
+	<SymSoundID_4>119</SymSoundID_4>
+	
+	<Symbol5 name="ship">5</Symbol5>
+	<SymSoundID_5>121</SymSoundID_5>
+	
+	<Symbol6 name="cannon">6</Symbol6>
+	<SymSoundID_6>113</SymSoundID_6>
+	
+	<Symbol7 name="hero">7</Symbol7>
+	<SymSoundID_7>114</SymSoundID_7>
+	
+	<Symbol8 name="pod">8</Symbol8>
+	<SymSoundID_8>116</SymSoundID_8>
+	
+	<Symbol9 name="reactor">9</Symbol9>
+	<SymSoundID_9>118</SymSoundID_9>
+	
+	<Symbol10 name="radiation">10</Symbol10>
+	<SymSoundID_10>117</SymSoundID_10>
+	
+	<Symbol11 name="barrel">11</Symbol11>
+	<SymSoundID_11>111</SymSoundID_11>
+	
+	<Symbol12 name="ammocrate">12</Symbol12>
+	<SymSoundID_12>110</SymSoundID_12>
+</Object>
+
+<Object name="SpaceGameSoundInfo">
+	<LoopReelSound>false</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>100,101,102,103,104</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs></StopReelSoundIDs>
+	<LineUpSoundIDs>60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84</LineUpSoundIDs>
+	<LineDownSoundIDs>54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30</LineDownSoundIDs>
+	<BetUpSoundIDs>20,21,22,23,24,25,26,27</BetUpSoundIDs>
+	<BetDownSoundIDs>17,16,15,14,13,12,11,10</BetDownSoundIDs>
+</Object>
+
+<Game name="Space Station" include_props="SpaceSymbolMap,SpaceGameSoundInfo"> 
+	<ID>0</ID>
+	<Jar>../jars/spacestation.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.fivereel.FiveReelSlots</Class>
+	<Resources>../FiveReel/spacestation25_resources</Resources>
+	<JarResources>spacestation25_resources</JarResources>
+	<ConfigFile>game_config/skill_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3X5 BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Space Station</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/background/game_music_intro.wav</IconSound>
+	<GameSetupFile>../configs2/ohio_skill/gui/space_station_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<GameWidth>1152</GameWidth>
+	<GameHeight>768</GameHeight>	
+	<DefaultState>waiting</DefaultState>	
+	<Bonus0>com.pom.games.fivereel.bonus.spacestation.SpaceStationPickum</Bonus0>
+	<Paytable0>paytables/ss7_finite_skill_prog_val.xml</Paytable0>		
+</Game>
+
+<!-- Keno Games -->
+
+<Game name="Icy Hot"> 
+	<ID>0</ID>
+	<Jar>../jars/icy_hot.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.keno.Keno</Class>
+	<Resources>../Keno/icyhot_resources</Resources>
+	<JarResources>icyhot_resources</JarResources>
+	<ConfigFile>game_config/skill_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting KENO GameConfig</DataStoreTables>
+    <DisplayName>Icy Hot Keno</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/skill_icon</IconImage>
+	<IconSound>sounds/Opium.wav</IconSound>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<GameSetupFile>../configs2/ohio_skill/gui/icyhot_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<DefaultState>waiting</DefaultState>
+	<GameWidth>1152</GameWidth>
+	<GameHeight>768</GameHeight>	
+	<Paytable0>paytables/finite_icy_hot_skl.xml</Paytable0>	
+</Game>
+
+
+<Game name="Kicker"> 
+	<ID>0</ID>
+	<Jar>../jars/kicker.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.keno.Keno</Class>
+	<Resources>../Keno/kicker_resources</Resources>
+	<JarResources>kicker_resources</JarResources>
+	<ConfigFile>game_config/skill_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting KENO GameConfig</DataStoreTables>
+    <DisplayName>Kicker Keno</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconSound>sounds/winner.wav</IconSound>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<GameSetupFile>../configs2/ohio_skill/gui/kicker_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<DefaultState>waiting</DefaultState>
+	<GameWidth>1152</GameWidth>
+	<GameHeight>768</GameHeight>	
+	<SuperballName>KICKER-BALL</SuperballName>
+	<Paytable0>paytables/finite_multi_superball_skl.xml</Paytable0>	
+</Game>
+
+</Objects>

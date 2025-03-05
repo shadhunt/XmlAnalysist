@@ -1,0 +1,24 @@
+<Game name="Pirates Prize Skill" include_props="SymbolMap,PiratesGameSoundInfo"> 
+	<ID>0</ID>
+	<Jar>../jars/pirates_prize.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../MagicSlots/piratesprize_resources</Resources>
+	<JarResources>piratesprize_resources</JarResources>
+	<ConfigFile>game_config/ate_up_resource_defs.config</ConfigFile>
+    <DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest GameConfig</DataStoreTables>
+    <DisplayName>Pirates Prize</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconSound>sounds/reelspin/reelspin_01.wav</IconSound>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<GameSetupFile>../configs2/ohio_skill/gui/pirates_prize_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.pirate_bonus.PirateBonusGame</Bonus0>
+	<Paytable0>paytables/pirate_finite_skl_pa.xml</Paytable0>	
+</Game>

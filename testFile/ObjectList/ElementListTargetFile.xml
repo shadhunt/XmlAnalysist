@@ -1,0 +1,1153 @@
+<Objects>
+
+<!-- Holey Moley -->
+
+<Object name="Holey Moley Symbol Map">
+	<Symbol0 name="Wild" image="graphics_7up/symbols_png/wild">0</Symbol0>
+	<SymSoundID_0>117</SymSoundID_0>
+	
+	<Symbol1 name="Diamond Mole" image="graphics_7up/symbols_png/diamond_mole">1</Symbol1>
+	<SymSoundID_1>110</SymSoundID_1>
+	
+	<Symbol2 name="Green Mole" image="graphics_7up/symbols_png/green_mole">2</Symbol2>
+	<SymSoundID_2>111</SymSoundID_2>
+	
+	<Symbol3 name="Yellow Mole" image="graphics_7up/symbols_png/yellow_mole">3</Symbol3>
+	<SymSoundID_3>112</SymSoundID_3>
+	
+	<Symbol4 name="Pink Mole" image="graphics_7up/symbols_png/pink_mole">4</Symbol4>
+	<SymSoundID_4>113</SymSoundID_4>
+	
+	<Symbol5 name="Blue Mushroom" image="graphics_7up/symbols_png/mush_blue">5</Symbol5>
+	<SymSoundID_5>114</SymSoundID_5>
+	
+	<Symbol6 name="Green Mushroom" image="graphics_7up/symbols_png/mush_green">6</Symbol6>
+	<SymSoundID_6>115</SymSoundID_6>
+	
+	<Symbol7 name="Turnip" image="graphics_7up/symbols_png/turnip">7</Symbol7>
+	<SymSoundID_7>116</SymSoundID_7>
+	
+	<Symbol8 name="Carrot" image="graphics_7up/symbols_png/carrot">8</Symbol8>
+	<SymSoundID_8>117</SymSoundID_8>
+	
+	<Symbol9 name="Radish" image="graphics_7up/symbols_png/radish">9</Symbol9>
+	<SymSoundID_9>118</SymSoundID_9>
+	
+	<Symbol10 name="Bonk-a-Mole Helmet" image="graphics_7up/symbols_png/bonus_helmet">10</Symbol10>
+	<SymSoundID_10>119</SymSoundID_10>
+	
+	<Symbol11 name="Bonus Plays Cart" image="graphics_7up/symbols_png/bonus_plays">11</Symbol11>
+	<SymSoundID_11>120</SymSoundID_11>
+
+</Object>
+
+<Object name="Holey Moley Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<BetUpSoundIDs>10</BetUpSoundIDs>
+	<BetDownSoundIDs>11</BetDownSoundIDs>
+</Object>
+
+<Object name="Holey Moley Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>18</TierWin3>
+	<TierWin4>20</TierWin4>
+	<TierWin5>22</TierWin5>
+	<TierWin6>24</TierWin6>
+	<TierWin7>26</TierWin7>
+	<TierWin8>28</TierWin8>
+	<TierWin9>30</TierWin9>
+	<TierWin10>16</TierWin10>
+	<TierWin11>16</TierWin11>
+</Object>
+
+<Game name="Holey Moley" include_props="Holey Moley Symbol Map, Holey Moley Sound Info, Holey Moley Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/holey_moley.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.sevenreel.SevenReelSlots</Class>
+	<Resources>../SevenReel/holey_moley_resources</Resources>
+	<JarResources>holey_moley_resources</JarResources>
+	<ConfigFile>game_config_7up/resource_defs_7up.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_7 BonusSpinBonus BonusGameExtra SimpleBonus GameConfig DuckShootPersistence</DataStoreTables>
+	<DisplayName>Holey Moley</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/sfx/game_select.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/holey_moley_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<QR_X>-629</QR_X>
+	<QR_Y>336</QR_Y>
+	<NearClip>1200</NearClip>
+	<FarClip>1350</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1366</GameWidth>
+	<GameHeight>768</GameHeight>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.bonusspin9.BonusSpin9</Bonus0>
+	<Bonus1>com.pom.games.magicslots.duckshoot.DuckShootBonus</Bonus1>
+	<Paytable0>paytables/holey_moley_7up_rapid_skill_93_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/featured_icon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/holey_moley/hm_attract.mp4</FeaturedGameVideo>
+	<GOrder>8</GOrder>
+</Game>
+
+
+<!-- Drag-a-Ball -->
+
+<Object name="Drag-a-ball Symbol Map">
+	<Symbol0 name="Cueball Spinner Bonus" image="graphics_tall/symbols/cueball">0</Symbol0>
+	<SymSoundID_0>125</SymSoundID_0>
+	
+	<Symbol1 name="9-Ball" image="graphics_tall/symbols/9ball">1</Symbol1>
+	<SymSoundID_1>114</SymSoundID_1>
+	
+	<Symbol2 name="8-Ball" image="graphics_tall/symbols/8ball">2</Symbol2>
+	<SymSoundID_2>116</SymSoundID_2>	
+	
+	<Symbol3 name="7-Ball" image="graphics_tall/symbols/7ball">3</Symbol3>
+	<SymSoundID_3>113</SymSoundID_3>
+	
+	<Symbol4 name="6-Ball" image="graphics_tall/symbols/6ball">4</Symbol4>
+	<SymSoundID_4>110</SymSoundID_4>
+	
+	<Symbol5 name="5-Ball" image="graphics_tall/symbols/5ball">5</Symbol5>
+	<SymSoundID_5>120</SymSoundID_5>
+	
+	<Symbol6 name="4-Ball" image="graphics_tall/symbols/4ball">6</Symbol6>
+	<SymSoundID_6>123</SymSoundID_6>
+	
+	<Symbol7 name="3-Ball" image="graphics_tall/symbols/3ball">7</Symbol7>
+	<SymSoundID_13>115</SymSoundID_13>
+	
+	<Symbol8 name="2-Ball" image="graphics_tall/symbols/2ball">8</Symbol8>
+	<SymSoundID_8>117</SymSoundID_8>
+	
+	<Symbol9 name="1-Ball" image="graphics_tall/symbols/1ball">9</Symbol9>
+	<SymSoundID_9>111</SymSoundID_9>
+	
+	<ReelAnimDelay>80</ReelAnimDelay>
+</Object>
+
+<Object name="Drag-a-ball Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<RandomStopSound>false</RandomStopSound>
+	<BetUpSoundIDs>11</BetUpSoundIDs>
+	<BetDownSoundIDs>10</BetDownSoundIDs>
+</Object>
+
+<Object name="Drag-a-ball Skill Timer Config">
+	<TierWin0>14</TierWin0>
+	<TierWin1>14</TierWin1>
+	<TierWin2>16</TierWin2>
+	<TierWin3>16</TierWin3>
+	<TierWin4>18</TierWin4>
+	<TierWin5>18</TierWin5>
+	<TierWin6>20</TierWin6>
+	<TierWin7>20</TierWin7>
+	<TierWin8>22</TierWin8>
+	<TierWin9>22</TierWin9>
+	<TierWin10>24</TierWin10>
+	<TierWin11>24</TierWin11>
+	<TierWin12>26</TierWin12>
+	<TierWin13>26</TierWin13>
+	<TierWin14>28</TierWin14>
+	<TierWin15>28</TierWin15>
+	<TierWin16>30</TierWin16>
+	<TierWin17>30</TierWin17>
+	<TierWin18>12</TierWin18>
+	<TierWin19>12</TierWin19>
+</Object>
+
+<Object name="Drag-a-Ball Spinner Config">
+	<PegDistance>365</PegDistance>
+	<TickerLength>75</TickerLength>
+	<HeightToPivot>55</HeightToPivot>
+	<OffsetAngle>2</OffsetAngle>
+	<NumberOfSpinners>2</NumberOfSpinners>
+	
+	<Spinner0 BonusPools="1">Ring0,Ring1,Ring2,Ring3</Spinner0>
+	<Ring0 objID="2000">-1, 15, -1, 10, -1, 5, -1, 15, -1, 10, -1, 5</Ring0>
+	<Ring1 objID="2001">-1, 80, -1, 20, -1, 60, -1, 40</Ring1>
+	<Ring2 objID="2002">-1, 100, 200, 150</Ring2>
+	<Ring3 objID="2003">250</Ring3>
+	
+	<Spinner1 BonusPools="0">Ring4,Ring5,Ring6,Ring7</Spinner1>
+	<Ring4 objID="2000">-1, 40, -1, 30, -1, 20, -1, 40, -1, 30, -1, 20</Ring4>
+	<Ring5 objID="2001">-1, 125, -1, 50, -1, 100, -1, 75</Ring5>
+	<Ring6 objID="2002">-1, 150, 500, 300</Ring6>
+	<Ring7 objID="2003">1000</Ring7>
+</Object>
+
+<Game name="Drag a Ball" include_props="Drag-a-ball Symbol Map, Drag-a-ball Sound Info, Drag-a-ball Skill Timer Config, Drag-a-Ball Spinner Config">
+	<ID>0</ID>
+	<Jar>../jars/drag_a_ball.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.fifteenreel.FifteenReelSlots</Class>
+	<Resources>../FifteenReel/dragaball_resources</Resources>
+	<JarResources>dragaball_resources</JarResources>
+	<ConfigFile>config/wyo_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_15 EnhancedFreeSpinBonus BonusSpinBonus BonusGameExtra GameConfig NestedSpinnerPersistence</DataStoreTables>
+	<DisplayName>Drag a Ball</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/start</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>dragaball_sounds/icon_music.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/drag_a_ball_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>5000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1280</GameWidth>
+	<GameHeight>800</GameHeight>
+	<QR_X>-533</QR_X>
+	<QR_Y>349</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Paytable0>paytables/drag_a_ball_9_ball_rapidskill_95_field_bet_virginia.xml</Paytable0>
+	<Bonus0>com.pom.games.magicslots.nestedspinners2.NestedSpinnersBonus2</Bonus0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<DragSpeed>300</DragSpeed>
+	<TranslateType>TRANSLATE_QUAD_IN</TranslateType>
+	<IsFeatured>true</IsFeatured>
+	<FeaturedIcon>graphics/start_large</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/drag_a_ball/drag_a_ball_attract.mp4</FeaturedGameVideo>
+	<GOrder>6</GOrder>
+</Game>
+
+
+<!-- Pool of Prosperity -->
+
+<Object name="Pool of Prosperity Symbol Map">
+	<Symbol0 name="Wild" image="graphics/symbols/wild">0</Symbol0>
+	<SymSoundID_0>117</SymSoundID_0>
+
+	<Symbol1 name="Gold Koi" image="graphics/symbols/gold_koi">1</Symbol1>
+	<SymSoundID_1>110</SymSoundID_1>
+
+	<Symbol2 name="White Koi" image="graphics/symbols/white_koi">2</Symbol2>
+	<SymSoundID_2>111</SymSoundID_2>
+
+	<Symbol3 name="Orange Koi" image="graphics/symbols/orange_koi">3</Symbol3>
+	<SymSoundID_3>112</SymSoundID_3>
+
+	<Symbol4 name="Purple Koi" image="graphics/symbols/purple_koi">4</Symbol4>
+	<SymSoundID_4>113</SymSoundID_4>
+
+	<Symbol5 name="Green Symbol" image="graphics/symbols/prosperity">5</Symbol5>
+	<SymSoundID_5>114</SymSoundID_5>
+
+	<Symbol6 name="Yellow Symbol" image="graphics/symbols/finements">6</Symbol6>
+	<SymSoundID_6>115</SymSoundID_6>
+
+	<Symbol7 name="Red Symbol" image="graphics/symbols/luck">7</Symbol7>
+	<SymSoundID_7>116</SymSoundID_7>
+
+	<Symbol8 name="Purple Symbol" image="graphics/symbols/love">8</Symbol8>
+	<SymSoundID_8>117</SymSoundID_8>
+
+	<Symbol9 name="Orange Symbol" image="graphics/symbols/tranquil">9</Symbol9>
+	<SymSoundID_9>118</SymSoundID_9>
+		
+	<Symbol10 name="Bonus Plays" image="graphics/symbols/bonus_plays">10</Symbol10>
+	<SymSoundID_10>119</SymSoundID_10>
+	
+	<Symbol11 name="Bonus Game Lotus" image="graphics/symbols/bonus">11</Symbol11>
+	<SymSoundID_11>120</SymSoundID_11>
+</Object>
+
+<Object name="Pool of Prosperity Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>100</ReelSpinSoundIDs>
+	<BetUpSoundIDs>10</BetUpSoundIDs>
+	<BetDownSoundIDs>11</BetDownSoundIDs>
+</Object>
+
+<Object name="Pool of Prosperity Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>18</TierWin3>
+	<TierWin4>20</TierWin4>
+	<TierWin5>22</TierWin5>
+	<TierWin6>24</TierWin6>
+	<TierWin7>26</TierWin7>
+	<TierWin8>28</TierWin8>
+	<TierWin9>30</TierWin9>
+	<TierWin10>16</TierWin10>
+	<TierWin11>16</TierWin11>
+</Object>
+
+<Game name="Pool of Prosperity" include_props="Pool of Prosperity Symbol Map, Pool of Prosperity Sound Info, Pool of Prosperity Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/pond_of_prosperity.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/pond_of_prosperity_resources</Resources>
+	<JarResources>pond_of_prosperity_resources</JarResources>
+	<ConfigFile>game_config_9reel/ate_up_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusSpinBonus BonusGameExtra SimpleBonus GameConfig KoiPickEmPersistence</DataStoreTables>
+	<DisplayName>Pool of Prosperity</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/pop_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>pop_sounds/icon_select.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/pool_of_prosperity_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1366</GameWidth>
+	<GameHeight>768</GameHeight>
+	<QR_X>-548</QR_X>
+	<QR_Y>275</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.bonusspin9.BonusSpinFullyScripted9</Bonus0>
+	<Bonus1>com.pom.games.magicslots.koipickem.KoiPickEm</Bonus1>
+	<Paytable0>paytable/pool_of_prosperity_8up_rapidskill_94_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/pop_featured_icon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/pond_of_prosperity/attract.mp4</FeaturedGameVideo>
+	<GOrder>7</GOrder>
+</Game>
+
+
+<!-- Most Wanted -->
+
+<Object name="Most Wanted Symbol Map">
+	<Symbol0 name="Wild" is_wild="true" image="graphics/symbols/wild">0</Symbol0>
+	<SymSoundID_0>93814</SymSoundID_0>
+
+	<Symbol1 name="Outlaw" image="graphics/symbols/outlaw">1</Symbol1>
+	<SymSoundID_1>93815</SymSoundID_1>
+
+	<Symbol2 name="Native" image="graphics/symbols/native">2</Symbol2>
+	<SymSoundID_2>93816</SymSoundID_2>
+
+	<Symbol3 name="Saloon" image="graphics/symbols/saloon">3</Symbol3>
+	<SymSoundID_3>93817</SymSoundID_3>
+
+	<Symbol4 name="Star" image="graphics/symbols/star">4</Symbol4>
+	<SymSoundID_4>93818</SymSoundID_4>
+
+	<Symbol5 name="A" image="graphics/symbols/lettera">5</Symbol5>
+	<SymSoundID_5>93819</SymSoundID_5>
+
+	<Symbol6 name="K" image="graphics/symbols/letterk">6</Symbol6>
+	<SymSoundID_6>93820</SymSoundID_6>
+
+	<Symbol7 name="Q" image="graphics/symbols/letterq">7</Symbol7>
+	<SymSoundID_7>93821</SymSoundID_7>
+
+	<Symbol8 name="J" image="graphics/symbols/letterj">8</Symbol8>
+	<SymSoundID_8>93822</SymSoundID_8>
+
+	<Symbol9 name="10" image="graphics/symbols/numberten">9</Symbol9>
+	<SymSoundID_9>93823</SymSoundID_9>
+
+	<Symbol10 name="Poster Bonus" image="graphics/symbols/bonus">10</Symbol10>
+	<SymSoundID_10>93824</SymSoundID_10>
+
+	<Symbol11 name="Bonus Plays" image="graphics/symbols/bonusplays">11</Symbol11>
+	<SymSoundID_11>93825</SymSoundID_11>
+</Object>
+
+<Object name="Most Wanted Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>93803</ReelSpinSoundIDs>
+	<BetUpSoundIDs>93804</BetUpSoundIDs>
+	<BetDownSoundIDs>93805</BetDownSoundIDs>
+</Object>
+
+<Object name="Most Wanted Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>18</TierWin3>
+	<TierWin4>20</TierWin4>
+	<TierWin5>22</TierWin5>
+	<TierWin6>24</TierWin6>
+	<TierWin7>26</TierWin7>
+	<TierWin8>28</TierWin8>
+	<TierWin9>30</TierWin9>
+	<TierWin10>16</TierWin10>
+	<TierWin11>16</TierWin11>
+</Object>
+
+<Game name="Most Wanted" include_props="Most Wanted Symbol Map, Most Wanted Sound Info, Most Wanted Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/mostwanted.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/most_wanted_resources</Resources>
+	<JarResources>most_wanted_resources</JarResources>
+	<ConfigFile>game_config_9reel/ate_up_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusSpinBonus BonusGameTest BonusGameExtra GameConfig</DataStoreTables>
+	<DisplayName>Most Wanted</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/sfx/menu/menu_gameselect.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/most_wanted_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1366</GameWidth>
+	<GameHeight>768</GameHeight>
+	<QR_X>-492</QR_X>
+	<QR_Y>258</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.fivereel.bonus.dogbonus.DogBonusWeighted2</Bonus0>
+	<Bonus1>com.pom.games.magicslots.bonusspin9.BonusSpin9</Bonus1>
+	<Paytable0>paytables/most_wanted_8up_rapidskill_94_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/mw_featured_icon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/most_wanted/mw_attract_video.mp4</FeaturedGameVideo>
+	<GOrder>10</GOrder>
+</Game>
+
+
+<!-- Snow Day -->
+
+<Object name="Snow Day Symbol Map">
+	<Symbol0 name="Wild" image="graphics/symbols/wild">0</Symbol0>
+	<SymSoundID_0>93833</SymSoundID_0>	
+
+	<Symbol1 name="Penguin" image="graphics/symbols/penguin">1</Symbol1>
+	<SymSoundID_1>93814</SymSoundID_1>
+
+	<Symbol2 name="Bear" image="graphics/symbols/bear">2</Symbol2>
+	<SymSoundID_2>93815</SymSoundID_2>
+
+	<Symbol3 name="Sled" image="graphics/symbols/sled">3</Symbol3>
+	<SymSoundID_3>93816</SymSoundID_3>
+
+	<Symbol4 name="Igloo" image="graphics/symbols/igloo">4</Symbol4>
+	<SymSoundID_4>93817</SymSoundID_4>
+
+	<Symbol5 name="Whaletail" image="graphics/symbols/whaletail">5</Symbol5>
+	<SymSoundID_5>93818</SymSoundID_5>
+
+	<Symbol6 name="Kayak" image="graphics/symbols/kayak">6</Symbol6>
+	<SymSoundID_6>93819</SymSoundID_6>
+
+	<Symbol7 name="Seven" image="graphics/symbols/seven">7</Symbol7>
+	<SymSoundID_7>93820</SymSoundID_7>
+
+	<Symbol8 name="Cherry" image="graphics/symbols/cherry">8</Symbol8>
+	<SymSoundID_8>93821</SymSoundID_8>
+
+	<Symbol9 name="Snowflake" image="graphics/symbols/snowflake">9</Symbol9>
+	<SymSoundID_9>93822</SymSoundID_9>
+		
+	<Symbol10 name="Bonus Plays" image="graphics/symbols/bonusplays">10</Symbol10>
+	<SymSoundID_10>93823</SymSoundID_10>
+	
+	<Symbol11 name="Fishing Hole Bonus" image="graphics/symbols/bonus">11</Symbol11>
+	<SymSoundID_11>93824</SymSoundID_11>
+
+	<Symbol12 name="Wheel Bonus" image="graphics/symbols/wheel">12</Symbol12>
+	<SymSoundID_12>93825</SymSoundID_12>
+</Object>
+
+<Object name="Snow Day Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>93802</ReelSpinSoundIDs>
+	<BetUpSoundIDs>93804</BetUpSoundIDs>
+	<BetDownSoundIDs>93805</BetDownSoundIDs>
+</Object>
+
+<Object name="Snow Day Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>18</TierWin3>
+	<TierWin4>20</TierWin4>
+	<TierWin5>22</TierWin5>
+	<TierWin6>24</TierWin6>
+	<TierWin7>26</TierWin7>
+	<TierWin8>28</TierWin8>
+	<TierWin9>30</TierWin9>
+	<TierWin10>16</TierWin10>
+	<TierWin11>16</TierWin11>
+</Object>
+
+<Game name="Snow Day" include_props="Snow Day Symbol Map, Snow Day Sound Info, Snow Day Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/snowday.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/snowday_resources</Resources>
+	<JarResources>snowday_resources</JarResources>
+	<ConfigFile>game_config_9reel/ate_up_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusSpinBonus BonusGameExtra SimpleBonus GameConfig SpinnerWheelBonus</DataStoreTables>
+	<DisplayName>Snow Day</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/sfx/menu/menu_gameselect.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/snowday_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1366</GameWidth>
+	<GameHeight>768</GameHeight>
+	<QR_X>-635</QR_X>
+	<QR_Y>277</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.bonusspin9.BonusSpin9</Bonus0>
+	<Bonus1>com.pom.games.fivereel.bonus.wheelbonus.WheelBonus</Bonus1>
+	<Bonus2>com.pom.games.fivereel.bonus.fishingbonus.FishingBonus</Bonus2>
+	<Paytable0>paytables/snow_day_8up_rapidskill_94_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/featured_icon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/snowday/snowday_attract.mp4</FeaturedGameVideo>
+	<GOrder>9</GOrder>
+</Game>
+
+
+<!-- Shamrock Shenanigans -->
+
+<Object name="Shamrock Shenanigans SymbolMap">
+	<Symbol0 name="Wild" is_wild="false" image="graphics/symbols/Clover">0</Symbol0>
+	<SymSoundID_0>110</SymSoundID_0>
+
+	<Symbol1 name="Pot of Gold" image="graphics/symbols/PotOfGold">1</Symbol1>
+	<SymSoundID_1>111</SymSoundID_1>
+
+	<Symbol2 name="Leprechaun" image="graphics/symbols/Leprechaun">2</Symbol2>
+	<SymSoundID_2>112</SymSoundID_2>
+
+	<Symbol3 name="Bag" image="graphics/symbols/MoneyBag">3</Symbol3>
+	<SymSoundID_3>113</SymSoundID_3>
+
+	<Symbol4 name="Cash" image="graphics/symbols/Cash">4</Symbol4>
+	<SymSoundID_4>114</SymSoundID_4>
+
+	<Symbol5 name="Star" image="graphics/symbols/Star">5</Symbol5>
+	<SymSoundID_5>115</SymSoundID_5>
+
+	<Symbol6 name="Seven" image="graphics/symbols/Seven">6</Symbol6>
+	<SymSoundID_6>116</SymSoundID_6>
+
+	<Symbol7 name="Horseshoe" image="graphics/symbols/HorseShoe">7</Symbol7>
+	<SymSoundID_7>117</SymSoundID_7>
+
+	<Symbol8 name="Rabbit" image="graphics/symbols/Rabbit">8</Symbol8>
+	<SymSoundID_8>118</SymSoundID_8>
+
+	<Symbol9 name="Elephant" image="graphics/symbols/Elephant">9</Symbol9>
+	<SymSoundID_9>119</SymSoundID_9>
+
+	<Symbol10 name="Coin Bonus" image="graphics/symbols/Bonus">10</Symbol10>
+	<SymSoundID_10>109</SymSoundID_10>
+
+	<Symbol11 name="Bonus Plays Mushrooms" image="graphics/symbols/BonusPlays">11</Symbol11>
+	<SymSoundID_11>110</SymSoundID_11>
+</Object>
+
+<Object name="Shamrock Shenanigans Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>100</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs></StopReelSoundIDs>
+	<LineUpSoundIDs>60</LineUpSoundIDs>
+	<LineDownSoundIDs>30</LineDownSoundIDs>
+	<BetUpSoundIDs>11</BetUpSoundIDs>
+	<BetDownSoundIDs>10</BetDownSoundIDs>
+	<MaxBetSoundID>17</MaxBetSoundID>
+</Object>
+
+<Object name="Shamrock Shenanigans Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>20</TierWin3>
+	<TierWin4>22</TierWin4>
+	<TierWin5>24</TierWin5>
+	<TierWin6>26</TierWin6>
+	<TierWin7>28</TierWin7>
+	<TierWin8>30</TierWin8>
+	<TierWin9>18</TierWin9>
+	<TierWin10>16</TierWin10>
+</Object>
+
+<Game name="Shamrock Shenanigans" include_props="Shamrock Shenanigans SymbolMap, Shamrock Shenanigans Sound Info, Shamrock Shenanigans Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/shamrock_shenanigans.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/shamrock_shenanigans_resources</Resources>
+	<JarResources>shamrock_shenanigans_resources</JarResources>
+	<ConfigFile>game_config_9reels/ate_up_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest BonusGameExtra GameConfig BonusSpinBonus</DataStoreTables>
+	<DisplayName>Shamrock Shenanigans</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconSound>sounds/audio/icon_music.wav</IconSound>
+	<IconAnim>scripts_9reels/menu_icon.script</IconAnim>
+	<GameSetupFile>../configs2/common/gui/games/shamrock_shenanigans_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<GameWidth>1280</GameWidth>
+	<GameHeight>800</GameHeight>
+	<QR_X>-520</QR_X>
+	<QR_Y>289</QR_Y>
+	<Version>1.0 Alpha</Version>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.fivereel.bonus.shamrock.pickcoins.CoinBonusWeighted</Bonus0>
+	<Bonus1>com.pom.games.magicslots.bonusspin9.BonusSpin9</Bonus1>
+	<Paytable0>paytables_9reels/shamrock_shenanigans_rapidskill_95_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<OneCelebration>true</OneCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/shamrockshenanigans_featured</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/shamrock_shenanigans/shamrockshenanigans_menuvideo.mp4</FeaturedGameVideo>
+	<GOrder>5</GOrder>
+</Game>
+
+
+<!-- Lady Periwinkle -->
+
+<Object name="Contraption8 Symbol Map">
+	<Symbol0 name="Wild Octopus" image="graphics/symbols/octopus">0</Symbol0>
+	<SymSoundID_0>117</SymSoundID_0>
+
+	<Symbol1 name="Periwinkle" image="graphics/symbols/periwinkle">1</Symbol1>
+	<SymSoundID_1>115</SymSoundID_1>
+
+	<Symbol2 name="Chest" image="graphics/symbols/chest">2</Symbol2>
+	<SymSoundID_2>112</SymSoundID_2>
+
+	<Symbol3 name="Hat" image="graphics/symbols/hat">3</Symbol3>
+	<SymSoundID_3>113</SymSoundID_3>
+
+	<Symbol4 name="Balloon" image="graphics/symbols/balloon">4</Symbol4>
+	<SymSoundID_4>110</SymSoundID_4>
+
+	<Symbol5 name="A" image="graphics/symbols/ace">5</Symbol5>
+	<SymSoundID_5>116</SymSoundID_5>
+
+	<Symbol6 name="K" image="graphics/symbols/king">6</Symbol6>
+	<SymSoundID_6>118</SymSoundID_6>
+
+	<Symbol7 name="Q" image="graphics/symbols/queen">7</Symbol7>
+	<SymSoundID_7>119</SymSoundID_7>
+
+	<Symbol8 name="J" image="graphics/symbols/jack">8</Symbol8>
+	<SymSoundID_8>120</SymSoundID_8>
+
+	<Symbol9 name="10" image="graphics/symbols/ten">9</Symbol9>
+	<SymSoundID_9>116</SymSoundID_9>
+
+	<Symbol10 name="Bonus Plays Key" image="graphics/symbols/key">10</Symbol10>
+	<SymSoundID_10>114</SymSoundID_10>
+
+	<Symbol11 name="Roulette Bonus Octopus" image="graphics/symbols/bonus">11</Symbol11>
+	<SymSoundID_11>111</SymSoundID_11>
+</Object>
+
+<Object name="Contraption8 Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs></ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<LineUpSoundIDs>159,159,159,159,159,159,159,159</LineUpSoundIDs>
+	<LineDownSoundIDs>159,159,159,159,159,159,159,159</LineDownSoundIDs>
+	<BetUpSoundIDs>10</BetUpSoundIDs>
+	<BetDownSoundIDs>11</BetDownSoundIDs>
+	<MaxBetSoundID>17</MaxBetSoundID>
+</Object>
+
+<Object name="Contraption8 Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>20</TierWin3>
+	<TierWin4>22</TierWin4>
+	<TierWin5>24</TierWin5>
+	<TierWin6>26</TierWin6>
+	<TierWin7>28</TierWin7>
+	<TierWin8>30</TierWin8>
+	<TierWin9>18</TierWin9>
+	<TierWin10>16</TierWin10>
+</Object>
+
+<Game name="Contraption 8" include_props="Contraption8 Symbol Map, Contraption8 Sound Info, Contraption8 Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/contraption.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/contraption_resources</Resources>
+	<JarResources>contraption_resources</JarResources>
+	<ConfigFile>game_config_8liner/ate_up_resource_defs_single.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 EnhancedFreeSpinBonus BonusGameTest GameConfig RouletteBonus RouletteBonusPersistence</DataStoreTables>
+	<DisplayName>Lady Periwinkle</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/cc_icon</IconImage>
+	<IconAnim>scripts_8liner/menu_icon.script</IconAnim>
+	<IconSound>contraption_sounds/icon_music.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/contraption8_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>5000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1280</GameWidth>
+	<GameHeight>800</GameHeight>
+	<QR_X>-501</QR_X>
+	<QR_Y>290</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.enhancedfreespin.EnhancedFreeSpin9</Bonus0>
+	<Bonus1>com.pom.gameengine.bonus.roulettespinner.RouletteSpinnerBonus</Bonus1>
+	<Paytable0>paytables/lady_periwinkle_8up_rapidskill_2progs_95_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/periwinkle_featuredgameicon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/curious_contraption/menu/cc_attract.mp4</FeaturedGameVideo>
+	<GOrder>11</GOrder>
+</Game>
+
+
+<!-- Amigos Locos -->
+
+<Object name="Amigos Locos SymbolMap">
+	<Symbol0 name="Wild" image="graphics/symbols/hot_sauce">0</Symbol0>
+	<SymSoundID_0>110</SymSoundID_0>
+
+	<Symbol1 name="Gran Premio" image="graphics/symbols/grand_prize">1</Symbol1>
+	<SymSoundID_1>119</SymSoundID_1>
+
+	<Symbol2 name="Money Bag" image="graphics/symbols/money_bag">2</Symbol2>
+	<SymSoundID_2>118</SymSoundID_2>
+
+	<Symbol3 name="Avocado" image="graphics/symbols/avocado">3</Symbol3>
+	<SymSoundID_3>117</SymSoundID_3>
+
+	<Symbol4 name="Lady" image="graphics/symbols/amiga_tres">4</Symbol4>
+	<SymSoundID_4>116</SymSoundID_4>
+
+	<Symbol5 name="Skull" image="graphics/symbols/skull">5</Symbol5>
+	<SymSoundID_5>115</SymSoundID_5>
+
+	<Symbol6 name="Beer Guy" image="graphics/symbols/amigo_dos">6</Symbol6>
+	<SymSoundID_6>114</SymSoundID_6>
+
+	<Symbol7 name="Tequila" image="graphics/symbols/tequila">7</Symbol7>
+	<SymSoundID_7>113</SymSoundID_7>
+
+	<Symbol8 name="Cowboy" image="graphics/symbols/amigo_uno">8</Symbol8>
+	<SymSoundID_8>112</SymSoundID_8>
+
+	<Symbol9 name="Maracas" image="graphics/symbols/maracas">9</Symbol9>
+	<SymSoundID_9>111</SymSoundID_9>
+
+	<Symbol10 name="Chili Pick Bonus" image="graphics/symbols/chili">10</Symbol10>
+	<SymSoundID_10>110</SymSoundID_10>
+
+	<Symbol11 name="Pinata Bonus Plays" image="graphics/symbols/pinata">11</Symbol11>
+	<SymSoundID_11>120</SymSoundID_11>
+</Object>
+
+<Object name="Amigos Locos Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>100</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs></StopReelSoundIDs>
+	<BetUpSoundIDs>10</BetUpSoundIDs>
+	<BetDownSoundIDs>11</BetDownSoundIDs>
+	<MaxBetSoundID>17</MaxBetSoundID>
+</Object>
+
+<Object name="Amigos Locos Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>20</TierWin3>
+	<TierWin4>22</TierWin4>
+	<TierWin5>24</TierWin5>
+	<TierWin6>26</TierWin6>
+	<TierWin7>28</TierWin7>
+	<TierWin8>30</TierWin8>
+	<TierWin9>18</TierWin9>
+	<TierWin10>16</TierWin10>
+</Object>
+
+<Game name="Amigos Locos" include_props="Amigos Locos SymbolMap, Amigos Locos Sound Info, Amigos Locos Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/amigos_locos.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/amigos_locos_v2_resources</Resources>
+	<JarResources>amigos_locos_v2_resources</JarResources>
+	<ConfigFile>game_config_9reels/pa_rapid_skill_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest BonusGameExtra GameConfig BonusSpinBonus</DataStoreTables>
+	<DisplayName>Amigos Locos</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/menu_icon</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>sounds/audio/icon_music.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/amigos_locos_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<GameWidth>1024</GameWidth>
+	<GameHeight>768</GameHeight>
+	<QR_X>-455</QR_X>
+	<QR_Y>328</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<DoCelebration>true</DoCelebration>
+	<Bonus0>com.pom.games.fivereel.bonus.dogbonus.PepperBonus</Bonus0>
+	<Bonus1>com.pom.games.magicslots.bonusspin9.BonusSpin9</Bonus1>
+	<Paytable0>paytables_9reels/amigos_locos_8up_rapidskill_street_94_field_bet_virginia.xml</Paytable0>
+	<OneCelebration>true</OneCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/amigoslocos_featured</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/amigos_locos/amigoslocos_menuvideo.mp4</FeaturedGameVideo>
+	<GOrder>2</GOrder>
+</Game>
+
+
+<!-- Living Large -->
+
+<Object name="Living Large SymbolMap">
+	<Symbol0 name="Wild" is_wild="false" image="graphics/symbols/Wild">0</Symbol0>
+	<SymSoundID_0>112</SymSoundID_0>
+
+	<Symbol1 name="Diamond" image="graphics/symbols/Diamond">1</Symbol1>
+	<SymSoundID_1>118</SymSoundID_1>
+
+	<Symbol2 name="Champagne" image="graphics/symbols/Champagne">2</Symbol2>
+	<SymSoundID_2>114</SymSoundID_2>
+
+	<Symbol3 name="Money Stacks" image="graphics/symbols/Money_Stacks">3</Symbol3>
+	<SymSoundID_3>115</SymSoundID_3>
+
+	<Symbol4 name="Yacht" image="graphics/symbols/Yacht">4</Symbol4>
+	<SymSoundID_4>119</SymSoundID_4>
+
+	<Symbol5 name="Stretch Limo" image="graphics/symbols/Stretch_Limo">5</Symbol5>
+	<SymSoundID_5>111</SymSoundID_5>
+
+	<Symbol6 name="300 Car" image="graphics/symbols/300_Car">6</Symbol6>
+	<SymSoundID_6>113</SymSoundID_6>
+
+	<Symbol7 name="White House" image="graphics/symbols/White_House">7</Symbol7>
+	<SymSoundID_7>116</SymSoundID_7>
+
+	<Symbol8 name="Jet Plane" image="graphics/symbols/Jet_Plane">8</Symbol8>
+	<SymSoundID_8>121</SymSoundID_8>
+
+	<Symbol9 name="Red Car" image="graphics/symbols/Red_Car">9</Symbol9>
+	<SymSoundID_9>117</SymSoundID_9>
+
+	<Symbol10 name="Bonus Plays" image="graphics/symbols/BonusSpins">10</Symbol10>
+	<SymSoundID_10>112</SymSoundID_10>
+
+	<Symbol11 name="1x Wheel Bonus" image="graphics/symbols/Wheel_1_Bonus">11</Symbol11>
+	<SymSoundID_11>120</SymSoundID_11>
+
+	<Symbol12 name="2x Wheel Bonus" image="graphics/symbols/Wheel_2_Bonus">12</Symbol12>
+	<SymSoundID_12>120</SymSoundID_12>
+
+	<Symbol13 name="3x Wheel Bonus" image="graphics/symbols/Wheel_3_Bonus">13</Symbol13>
+	<SymSoundID_13>120</SymSoundID_13>
+</Object>
+
+<Object name="Living Large GameSoundInfo">
+	<LoopReelSound>false</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs>192,193,194,195,192,193,194,195</ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs>38</StopReelSoundIDs>
+	<LineUpSoundIDs>191,191,191,191,191,191,191,191</LineUpSoundIDs>
+	<LineDownSoundIDs>196,196,196,196,196,196,196,196,</LineDownSoundIDs>
+	<BetUpSoundIDs>210</BetUpSoundIDs>
+	<BetDownSoundIDs>211</BetDownSoundIDs>
+</Object>
+
+<Object name="Living Large Skill Timer Config">
+	<TierWin1>10</TierWin1>
+	<TierWin2>12</TierWin2>
+	<TierWin3>14</TierWin3>
+	<TierWin4>20</TierWin4>
+	<TierWin5>22</TierWin5>
+	<TierWin6>24</TierWin6>
+	<TierWin7>26</TierWin7>
+	<TierWin8>28</TierWin8>
+	<TierWin9>30</TierWin9>
+	<TierWin11>18</TierWin11>
+	<TierWin12>16</TierWin12>
+	<TierWin13>16</TierWin13>
+	<TierWin14>16</TierWin14>
+</Object>
+
+<Game name="Living Large" include_props="Living Large SymbolMap,Living Large GameSoundInfo, Living Large Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/livinlarge.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/livinlarge_resources</Resources>
+	<JarResources>livinlarge_resources</JarResources>
+	<ConfigFile>game_config_8liners/pa_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 BonusGameTest BonusGameExtra GameConfig EnhancedFreeSpinBonus SpinnerWheelBonus</DataStoreTables>
+	<DisplayName>Living Large</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/gameLogo</IconImage>
+	<IconAnim>scripts/menu_icon.script</IconAnim>
+	<IconSound>LivinLarge_sounds/main_icon_music.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/Living_Large_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0 Alpha</Version>
+	<GameWidth>1024</GameWidth>
+	<GameHeight>768</GameHeight>
+	<QR_X>-455</QR_X>
+	<QR_Y>328</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.fivereel.bonus.spinnerwheel.SpinnerWheelBonusItem</Bonus0>
+	<Bonus1>com.pom.games.magicslots.enhancedfreespin.EnhancedFreeSpin9</Bonus1>
+	<Paytable0>paytables_8liners/living_large_8up_rapidskill_street_92_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<FeaturedIcon>graphics/livinglargefeaturedicon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/living_large/menu/ll_attract_video.mp4</FeaturedGameVideo>
+	<GOrder>1</GOrder>
+</Game>
+
+
+<!-- Pirates -->
+
+<Object name="Pirates8 Symbol Map">
+	<Symbol0 name="Coin Bonus" image="graphics/symbols/Coin_Bonus">0</Symbol0>
+	<SymSoundID_0>110</SymSoundID_0>
+
+	<Symbol1 name="Girl" image="graphics/symbols/Female_Pirate">1</Symbol1>
+	<SymSoundID_1>118</SymSoundID_1>
+
+	<Symbol2 name="Man" image="graphics/symbols/Male_Pirate">2</Symbol2>
+	<SymSoundID_2>114</SymSoundID_2>
+
+	<Symbol3 name="Barrel" image="graphics/symbols/Barrel">3</Symbol3>
+	<SymSoundID_3>115</SymSoundID_3>
+
+	<Symbol4 name="Wild" image="graphics/symbols/Wild">4</Symbol4>
+	<SymSoundID_4>121</SymSoundID_4>
+
+	<Symbol5 name="Map" image="graphics/symbols/map">5</Symbol5>
+	<SymSoundID_5>119</SymSoundID_5>
+
+	<Symbol6 name="Treasure" image="graphics/symbols/Chest">6</Symbol6>
+	<SymSoundID_6>111</SymSoundID_6>
+
+	<Symbol7 name="Gun" image="graphics/symbols/Gun">7</Symbol7>
+	<SymSoundID_7>113</SymSoundID_7>
+
+	<Symbol8 name="Map and Pot" image="graphics/symbols/Map_Pot">8</Symbol8>
+	<SymSoundID_8>116</SymSoundID_8>
+
+	<Symbol9 name="Key" image="graphics/symbols/Key">9</Symbol9>
+	<SymSoundID_9>121</SymSoundID_9>
+
+	<Symbol10 name="Skull" image="graphics/symbols/Skull_Crossbones">10</Symbol10>
+	<SymSoundID_10>117</SymSoundID_10>
+
+	<Symbol11 name="Wheel Bonus" image="graphics/symbols/Spinner_Bonus">11</Symbol11>
+	<SymSoundID_11>120</SymSoundID_11>
+
+	<Symbol12 name="Bonus Plays" image="graphics/symbols/Free_Spins">12</Symbol12>
+	<SymSoundID_12>112</SymSoundID_12>
+</Object>
+
+<Object name="Pirates8 Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs></ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<StopReelSoundIDs>159</StopReelSoundIDs>
+	<LineUpSoundIDs>159,159,159,159,159,159,159,159</LineUpSoundIDs>
+	<LineDownSoundIDs>159,159,159,159,159,159,159,159</LineDownSoundIDs>
+	<BetUpSoundIDs>10</BetUpSoundIDs>
+	<BetDownSoundIDs>11</BetDownSoundIDs>
+</Object>
+
+<Object name="Pirates8 Skill Timer Config">
+	<TierWin0>16</TierWin0>
+	<TierWin1>10</TierWin1>
+	<TierWin2>12</TierWin2>
+	<TierWin3>14</TierWin3>
+	<TierWin5>20</TierWin5>
+	<TierWin6>22</TierWin6>
+	<TierWin7>24</TierWin7>
+	<TierWin8>26</TierWin8>
+	<TierWin9>28</TierWin9>
+	<TierWin10>30</TierWin10>
+	<TierWin11>16</TierWin11>
+	<TierWin12>18</TierWin12>
+</Object>
+
+<Game name="Pirates8" include_props="Pirates8 Symbol Map, Pirates8 Sound Info, Pirates8 Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/pirates.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/pirates_resources</Resources>
+	<JarResources>pirates_resources</JarResources>
+	<ConfigFile>game_config_8liner/pa_rapid_skill_resource_defs.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 EnhancedFreeSpinBonus BonusGameTest BonusGameExtra GameConfig SpinnerWheelBonus MultilevelPickumBonus</DataStoreTables>
+	<DisplayName>Pirates</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics_8liner/PiratesLogo</IconImage>
+	<IconAnim>scripts_8liner/menu_icon.script</IconAnim>
+	<IconSound>sounds/audio/icon_music.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/pirates8_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>3000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1024</GameWidth>
+	<GameHeight>768</GameHeight>
+	<QR_X>-455</QR_X>
+	<QR_Y>328</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus1>com.pom.games.fivereel.bonus.spinnerwheel.SpinnerWheelBonus</Bonus1>
+	<Bonus2>com.pom.games.fivereel.bonus.multipick.MultilevelPickum</Bonus2>
+	<Bonus0>com.pom.games.magicslots.enhancedfreespin.EnhancedFreeSpin9</Bonus0>
+	<Paytable0>paytables/pirates_8up_rapid_skill_93_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/piratesfeaturedicon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/pirates/menu/pirates_attract_video.mp4</FeaturedGameVideo>
+	<GOrder>3</GOrder>
+</Game>
+
+
+<!-- Under The Mountain -->
+
+<Object name="Under The Mountain Symbol Map">
+	<Symbol0 name="Wild" is_wild="true" image="graphics/symbols/wild/wild0.png">0</Symbol0>
+	<SymSoundID_0>110</SymSoundID_0>
+
+	<Symbol1 name="Dragon Egg" image="graphics/symbols/dragonegg/dragonegg0.png">1</Symbol1>
+	<SymSoundID_1>111</SymSoundID_1>
+
+	<Symbol2 name="Helmet" image="graphics/symbols/helmet/helmet0.png">2</Symbol2>
+	<SymSoundID_2>112</SymSoundID_2>
+
+	<Symbol3 name="Anvil" image="graphics/symbols/anvil/anvil0.png">3</Symbol3>
+	<SymSoundID_3>113</SymSoundID_3>
+
+	<Symbol4 name="Hammer" image="graphics/symbols/hammer/hammer0.png">4</Symbol4>
+	<SymSoundID_4>114</SymSoundID_4>
+
+	<Symbol5 name="Cart" image="graphics/symbols/cart/cart0.png">5</Symbol5>
+	<SymSoundID_5>115</SymSoundID_5>
+
+	<Symbol6 name="Axe" image="graphics/symbols/axe/axe0.png">6</Symbol6>
+	<SymSoundID_6>116</SymSoundID_6>
+
+	<Symbol7 name="Stein" image="graphics/symbols/stein/stein0.png">7</Symbol7>
+	<SymSoundID_7>117</SymSoundID_7>
+
+	<Symbol8 name="Shield" image="graphics/symbols/shield/shield0.png">8</Symbol8>
+	<SymSoundID_8>118</SymSoundID_8>
+
+	<Symbol9 name="Amulet" image="graphics/symbols/amulet/amulet0.png">9</Symbol9>
+	<SymSoundID_9>119</SymSoundID_9>
+
+	<Symbol10 name="Bonus Plays Medallion" image="graphics/symbols/coin/coin0.png">10</Symbol10>
+	<SymSoundID_10>120</SymSoundID_10>
+
+	<Symbol11 name="Lock-and-Spin Talisman" image="graphics/symbols/vault/vault0.png">11</Symbol11>
+	<SymSoundID_11>120</SymSoundID_11>
+</Object>
+
+<Object name="Under The Mountain Sound Info">
+	<LoopReelSound>true</LoopReelSound>
+	<RandomReelSound>false</RandomReelSound>
+	<ReelSpinSoundIDs></ReelSpinSoundIDs>
+	<RandomStopSound>false</RandomStopSound>
+	<LineUpSoundIDs>159,159,159,159,159,159,159,159</LineUpSoundIDs>
+	<LineDownSoundIDs>159,159,159,159,159,159,159,159</LineDownSoundIDs>
+	<BetUpSoundIDs>10,11,12,13,14,15,16</BetUpSoundIDs>
+	<BetDownSoundIDs>10,11,12,13,14,15,16</BetDownSoundIDs>
+	<MaxBetSoundID>17</MaxBetSoundID>
+</Object>
+
+<Object name="Under The Mountain Skill Timer Config">
+	<TierWin0>10</TierWin0>
+	<TierWin1>12</TierWin1>
+	<TierWin2>14</TierWin2>
+	<TierWin3>20</TierWin3>
+	<TierWin4>22</TierWin4>
+	<TierWin5>24</TierWin5>
+	<TierWin6>26</TierWin6>
+	<TierWin7>28</TierWin7>
+	<TierWin8>30</TierWin8>
+	<TierWin9>18</TierWin9>
+	<TierWin10>16</TierWin10>
+</Object>
+
+<Game name="Under The Mountain 8" include_props="Under The Mountain Symbol Map,Under The Mountain Sound Info,Under The Mountain Skill Timer Config">
+	<ID>0</ID>
+	<Jar>../jars/under_the_mountain.jar</Jar>
+	<IsSkill>true</IsSkill>
+	<PreLoadResources>false</PreLoadResources>
+	<Class>com.pom.games.magicslots.MagicSlots</Class>
+	<Resources>../FiveReel/under_the_mountain_resources</Resources>
+	<JarResources>under_the_mountain_resources</JarResources>
+	<ConfigFile>game_config_8liner/ate_up_resource_defs_single.config</ConfigFile>
+	<DataStoreTables>CommonGame GameAccounting SLOT_3X3 EnhancedFreeSpinBonus BonusGameTest GameConfig LockAndSpinPersistence</DataStoreTables>
+	<DisplayName>Under The Mountain</DisplayName>
+	<DefaultGame>false</DefaultGame>
+	<IconImage>graphics/utmicon</IconImage>
+	<IconAnim>scripts_8liner/menu_icon.script</IconAnim>
+	<IconSound>mountain_sounds/game_intro.wav</IconSound>
+	<GameSetupFile>../configs2/common/gui/games/under_mountain8_setup.xml</GameSetupFile>
+	<FieldOfView>32</FieldOfView>
+	<NearClip>1</NearClip>
+	<FarClip>5000</FarClip>
+	<Version>1.0</Version>
+	<GameWidth>1280</GameWidth>
+	<GameHeight>800</GameHeight>
+	<QR_X>-517</QR_X>
+	<QR_Y>304</QR_Y>
+	<DefaultState>waiting</DefaultState>
+	<Bonus0>com.pom.games.magicslots.enhancedfreespin.EnhancedFreeSpin9</Bonus0>
+	<Bonus1>com.pom.games.lockandspin9.LockAndSpinBonus</Bonus1>
+	<Paytable0>paytables/under_the_mountain_8up_rapidskill_3progs_95_field_bet_virginia.xml</Paytable0>
+	<DoCelebration>true</DoCelebration>
+	<AutoSort>true</AutoSort>
+	<FeaturedIcon>graphics/utm_featuredgameicon</FeaturedIcon>
+	<FeaturedGameVideo>../video/game/under_the_mountain/menu/utm_attract.mp4</FeaturedGameVideo>
+	<GOrder>4</GOrder>
+</Game>
+
+</Objects>
